@@ -15,9 +15,7 @@ def eating_cookies(n, cache={}):
   
   return cache[n]
 
-
-
-
+ 
  
 
 if __name__ == "__main__":

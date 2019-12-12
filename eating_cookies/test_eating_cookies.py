@@ -7,6 +7,7 @@ class Test(unittest.TestCase):
     self.assertEqual(eating_cookies(0), 1)
     self.assertEqual(eating_cookies(1), 1)
     self.assertEqual(eating_cookies(2), 2)
+    self.assertEqual(eating_cookies(4), 7)
     self.assertEqual(eating_cookies(5), 13)
     self.assertEqual(eating_cookies(10), 274)
 
